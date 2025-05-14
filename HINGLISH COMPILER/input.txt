@@ -1,0 +1,18 @@
+shuru
+x = 20;
+y = 5;
+z = x * y + 10 / 2;
+agar (z > 50 && x != y || ! (y == 5)) {
+    result = z - x;
+    bolo result;
+} nahi to {
+    result = z + x;
+    bolo result;
+}
+counter = 1;
+sum = 0;
+jabtak (counter <= 4) {
+    sum = sum + counter * 2;
+    counter = counter + 1;
+}
+bolo sum;

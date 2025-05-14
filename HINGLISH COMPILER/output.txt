@@ -1,0 +1,50 @@
+t1 = 20
+x = t1
+t2 = 5
+y = t2
+t3 = x * y
+t4 = 10
+t5 = 2
+t6 = t4 / t5
+t7 = t3 + t6
+z = t7
+t8 = 50
+t9 = z > t8
+t10 = x != y
+t11 = t9 && t10
+t12 = 5
+t13 = y == t12
+t14 = !t13
+t15 = t11 || t14
+if t15 goto L1
+goto L2
+L1:
+t16 = z - x
+result = t16
+print result
+goto L3
+L2:
+t17 = z + x
+result = t17
+print result
+L3:
+t18 = 1
+counter = t18
+t19 = 0
+sum = t19
+L4:
+t20 = 4
+t21 = counter <= t20
+if t21 goto L5
+goto L6
+L5:
+t22 = 2
+t23 = counter * t22
+t24 = sum + t23
+sum = t24
+t25 = 1
+t26 = counter + t25
+counter = t26
+goto L4
+L6:
+print sum
