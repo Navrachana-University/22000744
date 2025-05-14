@@ -1,3 +1,6 @@
+# Authors
+Harshil Brahmani (22000744)
+
 # Hinglish Compiler
 
 A simple compiler for the custom **Hinglish** programming language, implemented using **Flex** (lexical analysis) and **Bison** (parsing and Three-Address Code generation). This project reads a `.txt` source program written in Hinglish, performs lexical and syntactic analysis, and emits Three-Address Code (TAC) to `output.txt`.
